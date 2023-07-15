@@ -1,0 +1,74 @@
+/* WOrk Sans font from google */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,900&family=Open+Sans:wght@400;700;800&family=Style+Script&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+*{
+    font-family: 'Lato', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Style Script', cursive;
+font-family: 'Work Sans', sans-serif;
+}
+/* shared styles */
+
+.btn-primary{
+    border-radius: 8px;
+background: #FF900E;
+border: none;
+color: #FFFFFF;
+
+
+}
+
+/*  header section */
+header{
+    background: rgba(255, 144, 14, 0.10);
+    padding: 50px 230px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.nav-title{
+    color: #131313;
+    font-weight: 700;
+    font-size: 2.8125rem;
+    
+}
+.nav-description{
+    color: #424242;
+font-size: 1.125em;
+font-weight: 500;
+
+}
+nav>ul{
+    display: flex;
+    
+}
+
+nav li{
+    list-style: none;
+    margin-right: 30px; 
+}
+.banner{
+    width: 850px;
+    margin: auto;
+}
+.banner-description{
+    color: #727272;
+text-align: center;
+
+font-size: 1rem;
+
+font-weight: 400;
+
+
+}
+.banner-title{
+    color:  #131313;
+text-align: center;
+
+font-size: 4rem;
+
+font-weight: 700;
+
+
+}
